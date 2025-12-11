@@ -54,8 +54,12 @@ int main() {
                       g = cos(A), h = d + 2, D = 1 / (c * h * e + f * g + 5),
                       l = cos(i), m = cos(B), n = sin(B),
                       t = c * h * g - f * e;
-                int x = 40 + 30 * D * (l * h * m - t * n),
-                    y = 12 + 15 * D * (l * h * n + t * m),
+                // UBAH DI SINI SAHAJA - CENTERING KE TENGAH LAYAR
+                // Layar: 80 karakter lebar, 22 baris tinggi
+                // Tengah horizontal: 80/2 = 40, tengah vertikal: 22/2 = 11
+                // Tapi karena donat lebih tinggi, kita bisa pakai 11 untuk y
+                int x = 50 + 25 * D * (l * h * m - t * n),  // 40 adalah tengah, 30 menjadi 25 untuk sedikit lebih kecil
+                    y = 11 + 12 * D * (l * h * n + t * m),  // 11 adalah tengah, 15 menjadi 12 untuk sedikit lebih kecil
                     o = x + 80 * y,
                     N = 8 * ((f * e - c * d * g) * m - c * d * e - f * g - l * d * n);
                 if (22 > y && y > 0 && x > 0 && 80 > x && D > z[o]) {
