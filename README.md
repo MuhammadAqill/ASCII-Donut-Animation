@@ -16,14 +16,14 @@ A C++ terminal application that generates a customizable 3D spinning donut anima
 ### Installation
 1. Clone the repository to your local machine:
  ```bash
-  git clone https://github.com/sherwinvishesh/ASCII-Donut-Animation.git
+  git clone https://github.com/MuhammadAqill/ASCII-Donut-Animation.git
   cd ASCII-Donut-Animation
   cd src
   ```
 
 2. Compile the source code using a C++ compiler:
   ```bash
-  g++ -o donut src/circle.cpp -lm
+  g++ -o donut circle.cpp -lm
 ```
 
 3. Run the compiled application:
@@ -47,6 +47,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 Made with ❤️ by Sherwin
+Modified by Aqil
 
 
 
