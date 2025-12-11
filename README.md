@@ -6,6 +6,8 @@ A C++ terminal application that generates a customizable 3D spinning donut anima
 - Interactive size and color customization for the ASCII donut
 - Continuous 3D spinning animation effect
 - Cross-platform compatibility for terminals supporting ANSI escape codes
+- Interactive size for small lcd
+- Display donut in center
 
 ## Getting Started
 
@@ -46,8 +48,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by Sherwin
-Modified by Aqil
+Made with ❤️ by Sherwin\n
+( Modified by Aqil )
 
 
 
